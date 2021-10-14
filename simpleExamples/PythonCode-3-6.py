@@ -6,3 +6,23 @@
 #
 #exemplo desafio 2
 
+#var1,var2,var3 = 1,20,3
+#while var1 / var2:
+#    print(var1)
+#    var1 += var1
+import operator
+
+
+var1,var2 = 7,3
+
+r=var1 % var2
+#print("mod: ", r)
+
+if (var1 % var2) == 0:
+    print("true")
+
+elif (var1 % var2) == 1:
+    print("false")
+
+#while var1 < var3:
+    #print (operator.mod(var1,var2))

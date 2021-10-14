@@ -9,11 +9,12 @@
 var1,var2,var3 = 3,20,2
 while var1 < var2:
     print(var1)
-    var1 = var1 + var3
+    var1 += var3
 
+print("----------")
 
 #o inverso
-#var1,var2,var3 = 20,3,2
-#while var1 > var2:
-#    print(var1)
-#    var1 = var1 - var3
+var1,var2,var3 = 20,3,2
+while var1 > var2:
+    print(var1)
+    var1 -= var3
