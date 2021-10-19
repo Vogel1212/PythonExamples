@@ -8,3 +8,5 @@ def calculaIdade(birthDate):
     return age 
 
 print(calculaIdade("Certificamos que", nome,", ",date(12/10/1999)), "anos, ", "Foi aceito no curso gratuito de programção")
+
+#não completo

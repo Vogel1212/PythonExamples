@@ -22,5 +22,16 @@ print(number_1 / number_2)
 print('{} * {} = '.format(number_1, number_2))
 print(number_1 * number_2)
 
+# Exponenciaçao
+print('{} ** {} = '.format(number_1, number_2))
+print(number_1 ** number_2)
+
+# Módulo
+print('{} % {} = '.format(number_1, number_2))
+print(number_1 % number_2)
+
+# Divisão Inteira
+print('{} // {} = '.format(number_1, number_2))
+print(number_1 // number_2)
 
 
