@@ -4,10 +4,10 @@
 #import math
 import random
 from math import sqrt
-num = int(input('Digite um numero: '))
+num = int(input('Enter a number: '))
 #raiz = math.sqrt(num)
 raiz = sqrt(num)
-print('A raiz de {} é igual a {:.2f}'.format(num, raiz))
+print('the root of {} its the same as {:.2f}'.format(num, raiz))
 
 n = random.randint(1,10)
-print('Numero aleatorio:'.format(n))
+print('random number:'.format(n))

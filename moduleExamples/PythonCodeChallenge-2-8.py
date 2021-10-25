@@ -4,13 +4,13 @@
 
 import random
 
-a = str(input('Primeiro aluno: '))
-b = str(input('Segundo aluno: '))
-c = str(input('Terceiro aluno: '))
-d = str(input('Quarto aluno: '))
+a = str(input('First student: '))
+b = str(input('Second student: '))
+c = str(input('Third student: '))
+d = str(input('Fourth student: '))
 
-lista = [a,b,c,d]
-random.shuffle(lista)
+list = [a,b,c,d]
+random.shuffle(list)
 
-print('A ordem de apresentação será:')
-print(lista)
+print('The order of presentation will be:')
+print(list)

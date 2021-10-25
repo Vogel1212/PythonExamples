@@ -3,13 +3,13 @@
 
 import math
 
-print('Calculando Hipotenusa')
-opo = float(input('Medita do cateto oposto: '))
-adja = float(input('Medida do cateto adjacente: '))
+print('Calculating Hypotenuse')
+opo = float(input('Measure of the opposite leg: '))
+adja = float(input('Adjacent collar measurement: '))
 
 #hipo = (opo ** 2) + (adja ** 2)
 #hipo = math.sqrt(hipo)
 
 hipo = math.hypot(opo, adja)
 
-print('A Hipotenusa desse triângulo é: {:.2f}'.format(hipo))
+print('The hypotenuse of this triangle is: {:.2f}'.format(hipo))
