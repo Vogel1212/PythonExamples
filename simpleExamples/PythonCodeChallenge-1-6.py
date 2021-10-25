@@ -1,7 +1,7 @@
 # course challenge 10
 # Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar.
 
-quant = float(input('Quanto de dinheiro você tem na carteira? R$'))
+quant = float(input('How much money do you have in your wallet? R$'))
 dolar = 5.58
 
-print('Com R${:.2f} você pode comprar US${:.2f}'.format(quant, quant / dolar))
+print('With R${:.2f} you can buy US${:.2f}'.format(quant, quant / dolar))

@@ -1,11 +1,11 @@
 # Python challenge - dictated by Wolfgang, code developed by Gabriel
 # Qual será seu salario em tres anos, se estivesse aumentado pra 10% a cada 3 meses.
 
-sal = int(input('Qual é o salário mensal do funcionario? R$'))
-perc = int(input('Quantos Porcento de aumento trimestral?: '))
-anos = int(input('Em quantos anos esse cálculo deve ser feito?: '))
-c1 = anos*12/3
+sal = int(input('What is the employees monthly salary? US$'))
+perc = int(input('How many percent quarterly increase?: '))
+years = int(input('How many years should this calculation take?: '))
+c1 = years*12/3
 calc = sal*(perc/100)
 total = calc+sal*c1
 calcfim = total-sal
-print('Salário antigo do funcionario era R${:.2f}, agora com {}% de aumento trimestral durante {} anos, vai passar a ganhar R${:.2f} por mês.\nCom um aumento de R${:.2f} após 3 anos'.format(sal,perc,anos,total,calcfim))
+print('The employees old salary was US${:.2f}, now with {}% of quarterly increase during {} years, will start to win US${:.2f} a month.\nWith an increase of US${:.2f} after 3 years'.format(sal,perc,years,total,calcfim))
