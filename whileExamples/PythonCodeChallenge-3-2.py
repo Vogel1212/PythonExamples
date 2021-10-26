@@ -11,10 +11,10 @@ n1 = int(input('First value: '))
 n2 = int(input('Second value: '))
 op = 0
 while op != 5:
-    print('=-=-=-=-=-=-=-=-=')
+    print('-=' * 10)
     print('[1] Sum\n[2] Multiply\n[3] Larger\n[4] New numbers\n[5] Exit the program')
     op = int(input('What is your option: '))
-    print('=-=-=-=-=-=-=-=-=')
+    print('-=' * 10)
     if op == 1:
         print('The sum of {} + {} is: {}'.format(n1,n2,n1+n2))
     elif op == 2:
