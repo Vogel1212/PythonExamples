@@ -7,25 +7,25 @@
 # [ 5 ] sair do programa
 # Seu programa deverá realizar a operação solicitada em cada caso.
 
-n1 = int(input('Primeiro valor: '))
-n2 = int(input('Segundo valor: '))
+n1 = int(input('First value: '))
+n2 = int(input('Second value: '))
 op = 0
 while op != 5:
     print('=-=-=-=-=-=-=-=-=')
-    print('[1] somar\n[2] multiplicar\n[3] maior\n[4] novos números\n[5] sair do programa')
-    op = int(input('Qual é sua opção: '))
+    print('[1] Sum\n[2] Multiply\n[3] Larger\n[4] New numbers\n[5] Exit the program')
+    op = int(input('What is your option: '))
     print('=-=-=-=-=-=-=-=-=')
     if op == 1:
-        print('A soma de {} + {} é: {}'.format(n1,n2,n1+n2))
+        print('The sum of {} + {} is: {}'.format(n1,n2,n1+n2))
     elif op == 2:
         print('{} x {} é: {}'.format(n1,n2,n1*n2))
     elif op == 3:
         if n1 > n2:
-            print('Entre {} e {}, o maior numero é: {}'.format(n1,n2,n1))
+            print('Between {} and {}, the largest number is: {}'.format(n1,n2,n1))
         if n2 > n1:
-            print('Entre {} e {}, o maior numero é: {}'.format(n1,n2,n2))
+            print('Between {} and {}, the largest number is: {}'.format(n1,n2,n2))
     elif op == 4:
-        op = int(input('Qual é sua opção: '))
+        op = int(input('What is your option: '))
     elif op >= 6:
-        print('Digite uma opção valida!')
+        print('Please enter a valid option!')
 print('The end.')
