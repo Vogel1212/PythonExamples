@@ -1,4 +1,14 @@
 # course challenge 61
 # Refaça o DESAFIO 051, lendo o primeiro termo e a razão de uma PA, mostrando os 10 primeiros termos da progressão usando a estrutura while.
-# https://www.youtube.com/watch?v=vu5ehetQGe8&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0&index=77
-# Desafio 051: https://www.youtube.com/watch?v=-OnqSGh0u4g&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0&index=67
+
+#Desafio 51
+#print('-=' * 15)
+#print('   10 TERMS OF A ARITHMETIC PROGRESSION')
+#print('-=' * 15)
+#first = int(input('enter the first term: '))
+#reason = int(input('What is the reason for the arithmetic progression: '))
+#tenth = first + 10 * reason
+#for c in range (first, tenth, reason):
+#    print(c, end = ' → ')
+#print('HE FINISHED')
+

@@ -4,15 +4,15 @@
 
 from math import factorial
 
-#print('Digite um número para')
-#n = int(input('Calcular seu Fatorial: '))
+#print('Enter a number for')
+#n = int(input('Calculate your factorial: '))
 #f = factorial(n)
-#print('O fatorial de {} é igual a: {}'.format(n,f))
+#print('the factorial of {} its the same as: {}'.format(n,f))
 
-n = int(input('Digite um numero para calcular seu Fatorial: '))
+n = int(input('Enter a number to calculate your factorial: '))
 cont = n
 fac = 1
-print('Calculando {}! = '.format(n), end='')
+print('calculating {}! = '.format(n), end='')
 while cont > 0:
     print('{}'.format(cont), end='')
     print(' x ' if cont > 1 else ' = ', end='')
