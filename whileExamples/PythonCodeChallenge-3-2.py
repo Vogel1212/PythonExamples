@@ -6,7 +6,6 @@
 # [ 4 ] novos números
 # [ 5 ] sair do programa
 # Seu programa deverá realizar a operação solicitada em cada caso.
-# https://www.youtube.com/watch?v=OBJL5vPj4-E&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0&index=75
 
 n1 = int(input('Primeiro valor: '))
 n2 = int(input('Segundo valor: '))
