@@ -4,6 +4,17 @@
 
 from math import factorial
 
+#print('Digite um número para')
+#n = int(input('Calcular seu Fatorial: '))
+#f = factorial(n)
+#print('O fatorial de {} é igual a: {}'.format(n,f))
 
-print('Digite um número para')
-factorial = int(input('Calcular seu Fatorial:'))
+n = int(input('Digite um numero para calcular seu Fatorial: '))
+cont = n
+fac = 1
+print('Calculando {}! = '.format(n), end='')
+while cont > 0:
+    print('{}'.format(cont), end='')
+    print(' x ' if cont > 1 else ' = ', end='')
+    cont -= 1
+print(factorial(n))
