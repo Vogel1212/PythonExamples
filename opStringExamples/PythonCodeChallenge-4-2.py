@@ -1,6 +1,6 @@
 # course challenge 25
 # Crie um programa que leia o nome de uma pessoa e diga se ela tem "SILVA" no nome.
 
-name = str(input('Digite seu nome completo: ')).strip()
-print('Seu nome tem Silva? ', end='')
+name = str(input('Enter your full name: ')).strip()
+print('Does your name have Silva? ', end='')
 print('silva' in name.lower())
