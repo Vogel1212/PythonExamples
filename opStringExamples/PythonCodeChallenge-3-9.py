@@ -6,8 +6,8 @@
 # - Quantas letras tem o primeiro nome.
 
 name = str(input('Enter your full name: '))
-print('Analisando seu nome...')
-print('Seu nome em maiúsculas é {}'.format(name.upper()))
-print('Seu nome em minúsculas é {}'.format(name.lower()))
-print('Seu nome tem ao todo {} letras'.format(name.__len__()))
-print('Seu primeiro nome tem {} letras'.format(name.find(' ')))
+print('Analyzing your name...')
+print('Your name in capital letters is {}'.format(name.upper()))
+print('Your name in lowercase is {}'.format(name.lower()))
+print('Your name has the whole {} letters'.format(name.__len__()))
+print('Your first name has {} letters'.format(name.find(' ')))
