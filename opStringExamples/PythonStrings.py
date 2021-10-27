@@ -19,3 +19,16 @@
 # 
 # -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
 
+frase = 'Aprendendo Python'
+print(frase[1:9])
+print(len(frase))
+print(frase.count('o'))
+print(frase.find('e'))
+print(frase.replace('Python','Android'))
+print(frase.upper())
+print(frase.lower())
+print(frase.capitalize())
+print(frase.title())
+print(frase.strip())
+print(frase.split())
+print(frase.join('em casa'))
